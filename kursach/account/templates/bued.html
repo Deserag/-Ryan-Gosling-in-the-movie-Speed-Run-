@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+	<head> 
+		<meta charset="UTF-8"> 
+		<title>Title</title> 
+	</head> <body> 
+		<h1>Курсовой работа по тема та та</h1>
+		 <p> 
+			{% for data in account %}
+			<br> <a href={{data.In}}>
+            {{data.ID_Game}}
+			{{ data.Decription}} 
+            {{data.Price}}</a>
+		 </br>
+			  {% endfor %}
+			
+		</p> 
+<a href="#">logout</a> </body> </html>
